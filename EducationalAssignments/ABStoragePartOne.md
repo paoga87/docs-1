@@ -82,7 +82,7 @@ for details.
 Once you have built RepyV2 into a directory of your choice, change into that
 directory. Use the command below in order to run your RepyV2 applications:
 
-```python2 repy.py restrictions.default encasementlib.r2py [security_layer].r2py [application].r2py```
+```python3 repy.py encasementlib.r2py [security_layer].r2py [application].r2py```
 
 (Replace '[security_layer].r2py' and '[application].r2py' by the names of the
 security layers and application that you want to run.) 
@@ -270,7 +270,7 @@ Filenames may only be in the current directory and may only contain lowercase le
 Finally, type the following commands at the terminal to run your security
 layer with your attack program
 
-```python repy.py restrictions.default encasementlib.r2py [security_layer].r2py [attack_program].r2py ```
+```python3 repy.py encasementlib.r2py [security_layer].r2py [attack_program].r2py ```
 
 Make sure you went through the "How to get RepyV2" section!
 
@@ -287,7 +287,7 @@ Make sure you went through the "How to get RepyV2" section!
 may be useful for testing different mitigations separately.  This is
 done with the following command at the terminal:
 
-```python repy.py restrictions.default encasementlib.r2py [security_layer1].r2py [security_layer2].r2py [security_layer3].r2py [program].r2py```
+```python3 repy.py encasementlib.r2py [security_layer1].r2py [security_layer2].r2py [security_layer3].r2py [program].r2py```
 
 **Your security layer must produce no output!! **
 
