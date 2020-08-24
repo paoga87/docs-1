@@ -102,7 +102,7 @@ have occurred:
 Repy is a subset of Python, but its syntax is slightly different.  For
 example, Python's `print` statement cannot be used; Repy has `log` for
 that. For a full list of acceptable syntax please see
-[https://github.com/SeattleTestbed/docs/blob/master/Programming/RepyV2API.md]
+[https://github.com/kcg/docs/blob/master/Programming/RepyV2API.md]
 
  * command line errors:
 
@@ -279,7 +279,7 @@ Make sure you went through the "How to get RepyV2" section!
 ----
  
  * For a complete list of syntax in Repyv2 please visit:
- * **[https://github.com/SeattleTestbed/docs/blob/master/Programming/RepyV2API.md]**
+ * **[https://github.com/kcg295/docs/blob/master/Programming/RepyV2API.md]**
  
  * The following link is an excellent source for information about security layers: **[https://ssl.engineering.nyu.edu/papers/cappos_seattle_ccs_10.pdf]**
 
