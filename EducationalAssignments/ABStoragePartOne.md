@@ -107,7 +107,7 @@ that. For a full list of acceptable syntax please see
  * command line errors:
 
 **files are missing:** In the above command line call, you must have
-`repy.py`, restrictions.default, encasementlib.r2py, the security layer and
+`repy.py`, encasementlib.r2py, the security layer and
 the program you want to run in the current working directory.  If any or
 all of the above files are not in that directory then you will not be able
 to run repy files.  
