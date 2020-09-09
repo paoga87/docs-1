@@ -76,7 +76,7 @@ write to the backup file we read from, then the security is compromised.
 
 ### Getting Python and RepyV2
 
-Please refer to the [SeattleTestbed Build Instructions](../Contributing/BuildInstructions.md#prerequisites)
+Please refer to the [Build Instructions](../Contributing/BuildInstructions.md#prerequisites)
 for details.
 
 Once you have built RepyV2 into a directory of your choice, change into that
