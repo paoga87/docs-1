@@ -43,11 +43,11 @@ components.*
 1. Clone the RepyV2 repository from [SeattleTestbed's GitHub](https://github.com/SeattleTestbed).
 
 ```sh
-$ git clone https://github.com/SeattleTestbed/repy_v2
+$ git clone https://github.com/kcg295/repy_v2
 ```
 If you usually use `SSH` instead of `https` to clone your git repos, you can do:
 ```sh
-$ git clone git@github.com:SeattleTestbed/repy_v2.git
+$ git clone git@github.com:kcg295/repy_v2.git
 ```
 
 (If you want to clone a different repository, replace `repy_v2` with
