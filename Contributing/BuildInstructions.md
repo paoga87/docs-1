@@ -19,7 +19,7 @@ Seattle Testbed.
 ## Prerequisites
 Before you begin, make sure that you have the following pieces of software 
 on your computer:
-* [Python 2.7](https://www.python.org/downloads/).
+* [Python 3.7](https://www.python.org/downloads/) (or later).
 * [Git 1.7](http://www.git-scm.com/download) (or later)
 
 Many operating systems (such as Linux and Mac OS X) ship with these installed. 
