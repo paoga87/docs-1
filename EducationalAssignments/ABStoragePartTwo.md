@@ -193,15 +193,15 @@ Have all the reference monitors to test and the test cases inside the same direc
 
 * In the bash shell on Mac and Linux:
 ```
-for referencemonitor in reference_monitor_*; do for testcase in <net_id>_*; do python repy.py restrictions.default encasementlib.r2py $referencemonitor $testcase; done; done
+for referencemonitor in reference_monitor_*; do for testcase in <net_id>_*; do python repy.py encasementlib.r2py $referencemonitor $testcase; done; done
 ```
 * In the Command Prompt on Windows:
 ```
-FOR %r IN (reference_monitor_*) DO @FOR %a IN (<net_id>_*) DO @python repy.py restrictions.default encasementlib.r2py %r %a
+FOR %r IN (reference_monitor_*) DO @FOR %a IN (<net_id>_*) DO @python repy.py encasementlib.r2py %r %a
 ```
 * In PowerShell on Windows:
 ```
-foreach ($referencemonitor in Get-ChildItem reference_monitor_*) { foreach ($testcase in Get-ChildItem <net_id>_*) { python repy.py restrictions.default encasementlib.r2py $referencemonitor.Name $testcase.Name } }
+foreach ($referencemonitor in Get-ChildItem reference_monitor_*) { foreach ($testcase in Get-ChildItem <net_id>_*) { python repy.py encasementlib.r2py $referencemonitor.Name $testcase.Name } }
 ```
 
 This will print out the output from each program. Make sure that you replace `<net_id>` with your NetID.
@@ -210,7 +210,7 @@ If you want to spot the referencemonitor that failed during the test run, add ec
 
 * In the bash shell on Mac and Linux:
 ```
-for referencemonitor in reference_monitor_*; do echo $referencemonitor under test; for testcase in <net_id>_*; do python repy.py restrictions.default encasementlib.r2py $referencemonitor $testcase; done; done
+for referencemonitor in reference_monitor_*; do echo $referencemonitor under test; for testcase in <net_id>_*; do python repy.py encasementlib.r2py $referencemonitor $testcase; done; done
 ```
 * In the Command Prompt on Windows:
 ```
@@ -218,7 +218,7 @@ FOR %r IN (reference_monitor_*) DO @(ECHO %r under test & FOR %a IN (<net_id>_*)
 ```
 * In PowerShell on Windows:
 ```
-foreach ($referencemonitor in Get-ChildItem reference_monitor_*) { Write-Host $referencemonitor.Name; foreach ($testcase in Get-ChildItem <net_id>_*) { python repy.py restrictions.default encasementlib.r2py $referencemonitor.Name $testcase.Name } }
+foreach ($referencemonitor in Get-ChildItem reference_monitor_*) { Write-Host $referencemonitor.Name; foreach ($testcase in Get-ChildItem <net_id>_*) { python repy.py encasementlib.r2py $referencemonitor.Name $testcase.Name } }
 ```
 
 This will print out the name of each reference monitor before it starts executing the testcases against it.
