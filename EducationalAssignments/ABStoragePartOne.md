@@ -76,6 +76,8 @@ write to the backup file we read from, then the security is compromised.
 
 ### Getting Python and RepyV2
 
+**Note**: To make things more uniform for the programming labs, a Virtualbox image was created, with RepyV2 already built. Please check **EdStem**, where you will find details of the link to download the image, as well as an usage tutorial. **We stronly recommend using the Virtualbox image for these Programming Labs.** If you're using the Virtualbox image, you may skip the next Build Instructions step.
+
 Please refer to the [Build Instructions](../Contributing/BuildInstructions.md#prerequisites)
 for details.
 
@@ -297,8 +299,12 @@ testing if Repy installed correctly.
 
 # What to turn in?
 ----
- * Turn in a repy file called reference_monitor_[ netid ].r2py with all
+ * In Gradescope: Turn in a repy file called reference_monitor_[ netid ].r2py with all
 letters in lowercase.
 
 * **Never raise unexpected errors or produce any output.**  Your program
 must produce no output when run normally.
+
+* Once you have ran your reference monitor, Gradescope will automatically show your grade (gradescale 1-10). You can submit your reference monitor as many times as needed. Please allow a few days for your Programming Lab assignments to update inside Brightspace.
+
+* You *do not* need to submit anything under the assignment listed in Brightspace. This is only used by the Instructors and/or TAs to update your assignment grade.
