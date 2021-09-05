@@ -178,12 +178,6 @@ And more!  Remember a good security layer can't be broken by anyone!  Which is a
 
 
 
-## Extra Credit
-----
-Find bugs in the extra credit reference monitors given the altered threat model.  You should include more test cases in the extra credit!
-
-
-
 ## How to run your tests on many reference monitors
 ----
 
@@ -227,5 +221,7 @@ This will print out the name of each reference monitor before it starts executin
 ## What to turn in?
 ----
 
- * Turn in the test cases used to attack a given reference monitor in a zip file.   The name of each testcase must start with your netid in lowercase.   For example: abc123_securitytest1.r2py abc123_goodaccuracytest.r2py are both valid names.
- * Optionally turn in the test cases used to attack the extra credit reference monitors in a zip file.   Note that in this case, you can expect that your code is run more than once.   In the name of the file, say if it needs to be run multiple times.   For example:  abc123_run_twice_metadata_removal.r2py abc123_run_once_threading_hack.r2py.
+ * In Gradescope: Turn in the test cases used to attack a given reference monitor in a zip file.   The name of each testcase must start with your netid in lowercase.   For example: abc123_securitytest1.r2py abc123_goodaccuracytest.r2py are both valid names.
+ * Once you have ran your test case(s), Gradescope will automatically show your grade (gradescale 1-10). You can submit your test cases as many times as needed. Please allow a few days for your Programming Lab assignments to update inside Brightspace.
+ * You do not need to submit anything under the assignment listed in Brightspace. That area is only used by the Instructors and/or TAs to update your assignment grade.
+
