@@ -221,7 +221,7 @@ This will print out the name of each reference monitor before it starts executin
 ## What to turn in?
 ----
 
- * In Gradescope: Turn in the test cases used to attack a given reference monitor in a zip file.   The name of each testcase must start with your netid in lowercase.   For example: abc123_securitytest1.r2py abc123_goodaccuracytest.r2py are both valid names.
+ * In Gradescope: Turn in the test cases used to attack a given reference monitor individually or in a zip file.   The name of each testcase must start with the name attackcase in lowercase, followed by the testcase number and/or your netid.   For example: attackcase1.r2py attackcase2_[netid].r2py are both valid names.
  * Once you have ran your test case(s), Gradescope will automatically show your grade (gradescale 1-10). You can submit your test cases as many times as needed. Please allow a few days for your Programming Lab assignments to update inside Brightspace.
  * You do not need to submit anything under the assignment listed in Brightspace. That area is only used by the Instructors and/or TAs to update your assignment grade.
 
