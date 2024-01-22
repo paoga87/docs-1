@@ -57,7 +57,7 @@ with `repy_v2` for this concrete walkthrough:
 
 ```sh
 $ cd repy_v2/scripts
-$ python initialize.py
+$ python3 initialize.py
 ```
 
 `initialize.py` Git-clones the dependent repositories into `DEPENDENCIES` 
@@ -70,7 +70,7 @@ fetch the dependencies.
 the build (which must be created first). Name this folder as you like.
 ```sh
 $ mkdir TARGET_FOLDER
-$ python build.py TARGET_FOLDER
+$ python3 build.py TARGET_FOLDER
 ```
 
 If you don't setup a target directory, `build.py` will itself create a 
@@ -101,14 +101,14 @@ the test files to be included. Again, specifying a target directory is optional!
 ```sh
 $ cd COMPONENT/scripts
 $ mkdir TEST_TARGET_DIR
-$ python build.py -t TEST_TARGET_DIR
+$ python3 build.py -t TEST_TARGET_DIR
 ```
 
 Then, change to the test target directory (which will either be `RUNNABLE` 
 or your `TEST_TARGET_DIR`), and start the unit tests:
 ```sh
 $ cd TEST_TARGET_DIR
-$ python utf.py -a
+$ python3 utf.py -a
 ```
 
 The unit test framework prints out the test name and result (plus debugging 
